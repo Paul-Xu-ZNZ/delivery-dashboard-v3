@@ -726,13 +726,14 @@ const COLORS = {
 (function() {
   // Use dept_delivery (has weekly data) and dept_delivery_monthly for this month
   // Better: use monthly_delivery but also include current week data
-  const depts = ['\u4ea4\u4ed8\u4e00\u90e8', '\u4ea4\u4ed8\u4e8c\u90e8', '\u4ea4\u4ed8\u4e09\u90e8\u4e00\u7ec4', '\u4ea4\u4ed8\u4e09\u90e8\u4e8c\u7ec4'];
+  const depts = ['\u4ea4\u4ed8\u4e00\u90e8', '\u4ea4\u4ed8\u4e8c\u90e8', '\u4ea4\u4ed8\u4e09\u90e8', '\u4ea4\u4ed8\u516d\u90e8', '\u4ea4\u4ed8\u4e03\u90e8'];
   const types = ['CV', 'PS', 'RL'];
   const deptColors = {
     '\u4ea4\u4ed8\u4e00\u90e8': '#3b82f6',
     '\u4ea4\u4ed8\u4e8c\u90e8': '#f59e0b',
-    '\u4ea4\u4ed8\u4e09\u90e8\u4e00\u7ec4': '#8b5cf6',
-    '\u4ea4\u4ed8\u4e09\u90e8\u4e8c\u7ec4': '#06b6d4',
+    '\u4ea4\u4ed8\u4e09\u90e8': '#8b5cf6',
+    '\u4ea4\u4ed8\u516d\u90e8': '#06b6d4',
+    '\u4ea4\u4ed8\u4e03\u90e8': '#ec4899',
   };
 
   // Show grouped bar: each dept has 3 bars (CV/PS/RL) for this week vs 5月累计
